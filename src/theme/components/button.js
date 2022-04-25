@@ -1,5 +1,6 @@
 import { whiten } from '@chakra-ui/theme-tools';
 
+//button theme component to implement different variants of buttons for the application
 export const ButtonStyles = {
 
     baseStyle: {},

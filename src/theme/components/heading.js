@@ -1,5 +1,6 @@
 import { whiten } from '@chakra-ui/theme-tools';
 
+//Heading theme component used to create Heading variants
 export const headingStyles = {
 
     baseStyle: {},

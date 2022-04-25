@@ -1,5 +1,5 @@
-import { whiten } from '@chakra-ui/theme-tools';
 
+//Td theme component used to add variants to Td table components
 export const Td = {
     variants: {
         rounded: {
@@ -17,8 +17,8 @@ export const Td = {
             h: '5rem',
             w: '5rem',
             _hover: {
-                bg: whiten('yellow.500', 20),
                 boxShadow: 'md',
+                borderColor: 'yellow.100'
             },
         },
     },

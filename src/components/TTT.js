@@ -18,7 +18,6 @@ const TTT = () => {
     const [squares, setSquares] = useState(Array(9).fill(''));
     const [winner, setWinner] = useState(null);
     const [draw, setDraw] = useState(false);
-    // const { colorMode, toggleColorMode } = useColorMode();
 
     const checkWinner = (copy) => {
         let combos = {
@@ -62,6 +61,7 @@ const TTT = () => {
         setDraw(isDraw)
     };
 
+    //components to render winner or cats game
     const renderWinner = () => {
         if (winner) {
             return (
@@ -72,7 +72,6 @@ const TTT = () => {
         }
         
     };
-
     const renderDraw = () => {
         if (draw && !winner) {
             return (
